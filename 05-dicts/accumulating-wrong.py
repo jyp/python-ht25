@@ -1,6 +1,5 @@
 
-
-l = [("x",5), ("y",15),("z",10),("y",15)]
+l = [("x",5), ("y",15),("z",10),("y",5)]
 
 # how to process the above data to get:
 
