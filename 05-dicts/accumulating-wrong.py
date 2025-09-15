@@ -1,6 +1,6 @@
 
 l = [("x",5), ("y",15),("z",10),("y",5)]
+d = {}
+for k,v in l:
+    d.setdefault(k,[]).append(v)
 
-# how to process the above data to get:
-
-{"x":5 , "y":20, "z": 10}
